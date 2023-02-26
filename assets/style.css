@@ -1,0 +1,132 @@
+/* general styles */
+html {
+    background-image: url(./images/jspic.webp);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* makes the body element's background transparent so we can see the background image */
+.body {
+    background-color: transparent;
+}
+
+.start-container {
+    background-color: transparent;
+}
+.jumbotron {
+    color: white;
+    background-color: rgba(80, 71, 85, 0.616);
+    
+}
+
+#jumbo-header {
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* main paragraph in intro card */
+.lead {
+    text-align: center;
+    background-color:transparent;
+    font-family: 'Libre Baskerville', serif;
+}
+/* paragraph inside the jumbo */
+#jumbo-p {
+    text-align: center;
+    background-color: transparent ;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.score {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    color:  rgb(111, 236, 61);
+    background-color: black; 
+    font-family: 'Libre Baskerville', serif;
+}
+.highscore-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.quiz-end {
+    text-align: center;
+
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* start button styling */
+#jumbo-btn {
+    background-color: black;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 48%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'Libre Baskerville', serif;
+  }
+  /* hover effect for start button */
+  #jumbo-btn:hover {
+    background-color: rgb(111, 236, 61);
+    color: black;
+    cursor: pointer;
+  }
+  
+/* questions card styling*/
+.question {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* answers card styling */
+  .answers {
+    width: 40%;
+    margin: 20px auto 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+/* styling for "Question(#)" above the question card */
+  .question-number {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white
+  }
+  
+ .quiz-end {
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+    font-weight:bolder;
+ }
